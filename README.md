@@ -3,4 +3,4 @@ The official website of [GTA Hacks](https://gta-hacks-11408.devpost.com/), a Hac
 http://gtahacks.xyz  
 <br>
 Coded by:
-- [Christian Stefaniw] (https://www.github.com/christianstefaniw)
+- [Christian Stefaniw](https://www.github.com/christianstefaniw)
