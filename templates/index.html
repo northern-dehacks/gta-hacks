@@ -99,7 +99,7 @@
 
 
 
-            <section class="m-auto">
+            <section class="m-auto" id="about">
                 <h2 class="about-header">
                     About The Event
                 </h2>
@@ -297,7 +297,7 @@
                 </div>
             </section>
 
-            <section class="mb-0">
+            <section class="mb-0" id="sponsors">
                 <div class="row-title generic-title-margin">
                     <h1>Sponsors</h1>
                 </div>
@@ -430,24 +430,28 @@
             </div>
         </section>
 
-        <section class="container contact">
+        <section class="container contact" id="contact">
             <h4 class="contact-title">Question? Fill out a form, we’ll get back to you in 1-3 business days!</h4>
             <form method="post">
                 <div class="row">
                     <div class="col-md-6">
                         {{ form.name }}
+                        {{ form.name.errors }}
                     </div>
                     <div class="col-md-6">
                         {{ form.email }}
+                        {{ form.email.errors }}
                     </div>
 
 
                 </div>
                 <div class="form-margins">
                     {{ form.subject }}
+                    {{ form.subject.errors }}
                 </div>
                 <div>
                     {{ form.message }}
+                    {{ form.message.errors }}
                 </div>
 
 
