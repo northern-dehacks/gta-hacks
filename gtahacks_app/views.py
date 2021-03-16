@@ -14,7 +14,5 @@ def index(request):
         form = forms.ContactForm(request.POST)
         if form.is_valid():
             form.send_email()
-        else:
-            return HttpResponse('500 internal server error')
 
     return render(request, 'index.html', {'form': form, 'num_participants': get_num_participants()})
