@@ -16,8 +16,8 @@ def index(request):
         if form.is_valid():
             form.send_email()
             return redirect(reverse('success'))
-
-    return render(request, 'index.html', {'form': form, 'num_participants': get_num_participants()})
+    # return render(request, 'index.html', {'form': form, 'num_participants': get_num_participants()})
+    return render(request, 'index.html', {'form': form, 'num_participants': 111})
 
 
 class Success(TemplateView):
