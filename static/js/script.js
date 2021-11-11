@@ -1,6 +1,5 @@
 const counter = document.getElementById("value");
-// const numParticipants = document.getElementById("num_participants").value;
-const numParticipants = 110;
+const numParticipants = document.getElementById("num_participants").value;
 
 function main() {
     unhideAnimation();
@@ -51,7 +50,7 @@ function animateValue(obj, start, end, duration) {
     const step = (timestamp) => {
         if (!startTimestamp) startTimestamp = timestamp;
         const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        obj.innerHTML = Math.floor(progress * (end - start) + start) + "+";
+        obj.innerHTML = Math.floor(progress * (end - start) + start);
         if (progress < 1) {
             window.requestAnimationFrame(step);
         }

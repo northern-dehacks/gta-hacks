@@ -17,7 +17,9 @@ def index(request):
             form.send_email()
             return redirect(reverse('success'))
     # return render(request, 'index.html', {'form': form, 'num_participants': get_num_participants()})
-    return render(request, 'index.html', {'form': form, 'num_participants': 111})
+
+    # devpost value is no longer accurate so fixed, accurate value has replaced it
+    return render(request, 'index.html', {'form': form, 'num_participants': 115})
 
 
 class Success(TemplateView):
