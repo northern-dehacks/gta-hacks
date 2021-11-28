@@ -79,9 +79,6 @@ a{
     transition: all 0.3s ease;
 }
 
-.cta-btn:hover a {
-    color: #fff;
-}
 
 .cta-btn-sponsor {
     padding: 10px 25px;
