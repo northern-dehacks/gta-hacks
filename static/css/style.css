@@ -68,7 +68,7 @@ a{
 }
 
 .cta-btn a {
-    color: #fff;
+    color: #000000;
 }
 
 .cta-btn:hover {
@@ -80,7 +80,7 @@ a{
 }
 
 .cta-btn:hover a {
-    color: #000;
+    color: #fff;
 }
 
 .cta-btn-sponsor {
