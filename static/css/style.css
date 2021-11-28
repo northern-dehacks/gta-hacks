@@ -65,6 +65,9 @@ a{
     background: #fed66a;
     box-shadow: 3px 3px 0 rgba(180, 180, 180, 0.3);
     border-radius: 6px;
+}
+
+.cta-btn a {
     color: #000000;
 }
 
@@ -74,6 +77,10 @@ a{
     color: var(--secondary-color);
     background-color: transparent;
     transition: all 0.3s ease;
+}
+
+.cta-btn:hover a {
+    color: #000;
 }
 
 .cta-btn-sponsor {
@@ -92,10 +99,6 @@ a{
     background-color: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.cta-btn-spacing{
-    margin: 1rem 0 1rem 0;
 }
 
 .about-header {
