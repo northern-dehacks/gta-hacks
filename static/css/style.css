@@ -67,7 +67,7 @@ a{
     border-radius: 6px;
 }
 
-.cta-btn a {
+.cta-btn a, div {
     color: #000000;
 }
 
