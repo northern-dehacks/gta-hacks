@@ -146,6 +146,12 @@ a{
     max-width: 1600px;
 }
 
+@media screen and (min-width: 991px) {
+    .container-fluid {
+        max-width: 1300px;
+    }
+}
+
 .schedule{
     margin: 3rem 0 3rem 0;
 }
