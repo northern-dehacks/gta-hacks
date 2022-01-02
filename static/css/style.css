@@ -148,7 +148,7 @@ a{
 
 @media screen and (max-width: 991px) {
     .container-fluid {
-        max-width: 1300px;
+        max-width: 1300px !important;
     }
 }
 
