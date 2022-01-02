@@ -472,6 +472,10 @@ nav{
 
     #decoration-2 { display: none; }
     
+
+}
+
+@media screen and (max-width: 768px) {
     #decoration-1 { display: none; } 
 
 }
