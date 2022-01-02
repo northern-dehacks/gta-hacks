@@ -148,17 +148,11 @@ a{
 
 @media screen and (max-width: 1600px) {
     .container-fluid {
-        max-width: 1400px;
+        max-width: 1300px;
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .container-fluid {
-        max-width: 1200px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .container-fluid {
         max-width: 1000px;
     }
