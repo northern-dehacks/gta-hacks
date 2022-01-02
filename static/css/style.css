@@ -148,7 +148,7 @@ a{
 
 @media screen and (max-width: 991px) {
     .container-fluid {
-        max-width: 1300px !important;
+        max-width: 1300px;
     }
 }
 
@@ -471,5 +471,7 @@ nav{
     }
 
     #decoration-2 { display: none; }
+    
+    #decoration-1 { display: none; } 
 
 }
