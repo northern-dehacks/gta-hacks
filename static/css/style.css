@@ -146,9 +146,21 @@ a{
     max-width: 1600px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1600px) {
     .container-fluid {
         max-width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container-fluid {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-fluid {
+        max-width: 700px;
     }
 }
 
